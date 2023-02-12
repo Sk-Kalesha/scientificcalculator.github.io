@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+body {
+    background-color: #25262c;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+form {
+    background-color: #1b1c22;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px, 1px 1px 10px;
+}
+
+button {
+    background-color: transparent;
+    height: 80px;
+    width: 100px;
+    font-family: "Sans-serif";
+    font-size: 30px;
+    font-weight: 500;
+    color: #f8fafc;
+    cursor: pointer;
+    border: none;
+}
+
+button:hover {
+    background-color: #25262c;
+    border-top-right-radius: 500px;
+    border-top-left-radius: 500px;
+    border-bottom-right-radius: 500px;
+    border-bottom-left-radius: 500px;
+    padding: 25px;
+}
+
+input {
+    background-color: #1b1c22;
+    color: #f8fafc;
+    border: none;
+    height: 80px;
+    width: 520px;
+    font-family: "Sans-serif";
+    font-size: 45px;
+    border-bottom: #334155 solid 2px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+.heading {
+    color: orangered;
+    font-size: 35px;
+    text-align: center;
+    padding-bottom: 5px;
+    font-weight: 500;
+}
+
+.icon {
+    font-size: 27px;
+}
+
+.equaltoIcon {
+    font-size: 40px;
+    width: 210px;
+    border: solid 1px #334155;
+    border-radius: 10px;
+}
+
+@media (max-width: 576px) {
+    button {
+        background-color: transparent;
+        height: 40px;
+        width: 50px;
+        font-family: "Sans-serif";
+        font-size: 15px;
+        font-weight: 500;
+        color: #f8fafc;
+        cursor: pointer;
+        border: none;
+    }
+
+    button:hover {
+        background-color: #25262c;
+        border-top-right-radius: 250px;
+        border-top-left-radius: 250px;
+        border-bottom-right-radius: 250px;
+        border-bottom-left-radius: 250px;
+        padding: 12px;
+    }
+
+    input {
+        background-color: #1b1c22;
+        color: #f8fafc;
+        border: none;
+        height: 40px;
+        width: 260px;
+        font-family: "Sans-serif";
+        font-size: 23px;
+        border-bottom: #334155 solid 2px;
+        margin-top: 5px;
+        margin-bottom: 10px;
+    }
+
+    .heading {
+        color: orangered;
+        font-size: 15px;
+        text-align: center;
+        padding-bottom: 5px;
+        font-weight: 500;
+    }
+
+    .icon {
+        font-size: 12px;
+    }
+
+    .equaltoIcon {
+        font-size: 20px;
+        width: 105px;
+        border: solid 1px #334155;
+        border-radius: 5px;
+    }
+}
